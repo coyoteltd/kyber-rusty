@@ -1,0 +1,20 @@
+[package]
+name = "kyber-wasm"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen     = "0.2"
+js-sys           = "0.3"
+ml-kem           = "0.2"
+chacha20poly1305 = "0.10"
+blake2           = "0.10"
+getrandom        = { version = "0.2", features = ["js"] }
+rand             = { version = "0.8", features = ["getrandom"] }
+ 
+[profile.release]
+opt-level = "z"
+lto = true
