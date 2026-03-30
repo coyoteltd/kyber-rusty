@@ -152,7 +152,7 @@ pkg/
 
 ---
 
-##Installation
+## Installation
 
 ### Q: If I don't want to install Rust and build the .so and the .wasm files from source, can I still use this?
 **A:** Yes, you can download the precompiled binaries here:
