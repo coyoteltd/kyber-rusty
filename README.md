@@ -83,8 +83,6 @@ OpenResty application
 
 Flow:
 
-```
-
 Rust (wasm-bindgen)
 ↓
 WASM binary + JS wrapper
