@@ -193,6 +193,8 @@ I suggest looking at that file for how to do this, because it's pretty self expl
 The keys then need to be saved somewhere (like in a .env file) and loaded so that OpenResty can read them.
 I assume that if you're using OpenResty in a project, you have an idea of ways to do this.  If I assume wrong, feel free to email me, I'm very friendly.
 
+---
+
 ### 4. Example: Mint a token
 
 ```lua
