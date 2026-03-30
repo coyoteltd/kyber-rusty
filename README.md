@@ -172,7 +172,9 @@ pkg/
 
 ### Q: If I don't want to install Rust and build the .so and the .wasm files from source, can I still use this?
 **A:** Yes, you can download the precompiled binaries here:
+
 [libkyber_rusty.so](https://old.whycoyoterunslinux.com/code/kyber-rusty/libkyber_rusty.so) (file hash: cff75aa014b414bf0ddacb11b734ba7a)
+
 [kyber_wasm_bg.wasm](https://old.whycoyoterunslinux.com/code/kyber_rusty/kyber_wasm_bg.wasm) (file hash: 21bf5802e353d507da008d105782aa07)
 
 **You will also need the kyber.lua, paseto.lua and kyber_wasm.js files from this repo!**
