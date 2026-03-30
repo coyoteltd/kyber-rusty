@@ -135,6 +135,7 @@ target/release/libkyber_rusty.so
 
 ```
 cargo install wasm-pack
+```
 
 ```bash
 cd kyber-wasm
