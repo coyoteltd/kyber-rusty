@@ -1,0 +1,14 @@
+[package]
+name = "kyber-rusty"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "kyber_rusty"
+crate-type = ["cdylib"]
+
+[dependencies]
+ml-kem = "0.2"
+rand = "0.8"
+chacha20poly1305 = "0.10"
+blake2 = "0.10"
