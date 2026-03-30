@@ -132,7 +132,9 @@ target/release/libkyber_rusty.so
 ### WASM (browser side)
 
 **You will need to install wasm-pack with**
-```cargo install wasm-pack
+
+```
+cargo install wasm-pack
 
 ```bash
 cd kyber-wasm
