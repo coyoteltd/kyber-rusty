@@ -53,8 +53,6 @@ kyber-rusty/
 
 └── lib.rs
 
-```
-
 ---
 
 ## Overview
@@ -69,8 +67,6 @@ This project is split into two halves that work together:
 
 Flow:
 
-```
-
 Rust (.so)
 ↓
 kyber.lua (FFI bindings)
@@ -78,8 +74,6 @@ kyber.lua (FFI bindings)
 paseto.lua (token mint/verify)
 ↓
 OpenResty application
-
-```
 
 ### 2. `kyber-wasm` (Client / Browser)
 
